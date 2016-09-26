@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -22,7 +21,7 @@
   <body>
     <!-- LOADING ANIMATION
     ================================================== -->
-    <div class="loaderContainer" id="loader">
+    <!-- <div class="loaderContainer" id="loader">
       <div class="container">
         <div class="ball"></div>
         <div class="ball"></div>
@@ -32,7 +31,7 @@
         <div class="ball"></div>
         <div class="ball"></div>
       </div>
-    </div>
+    </div> -->
     <!-- NAVBAR
     ================================================== -->
     <div class="navbar-wrapper">
@@ -69,7 +68,7 @@
                 <li><a href="index.html" class="nav-link-parent"><i class="fa fa-home fa-fw" aria-hidden="true"></i>&nbsp;Home</a></li>
                 <li><a href="projects.html" class="nav-link-parent"><i class="fa fa-desktop" aria-hidden="true"></i>&nbsp;Projects</a></li>
                 <li><a href="resume.html" class="nav-link-parent"><i class="fa fa-file-text-o" aria-hidden="true"></i>&nbsp;Resume</a></li>
-                <li><a href="#contact" class="nav-link-parent"><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;Contact</a></li>              
+                <li><a href="contact.html" class="nav-link-parent"><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;Contact</a></li>              
               </ul>
             </div>
           </div>
@@ -82,8 +81,8 @@
       <div class="row">
         <div class="col-lg-5 col-md-5">
           <div class="info resection">
-            <img src="img/QRcode.jpg" width="140" height="140">
-            <h2>Liyuan Wei</h2>
+            <img src="img/QRcode2.jpg" width="140" height="140">
+            <h2 id="resumeName">Liyuan Wei</h2>
             <h4>code &middot; design &middot; creative</h4>
           </div>
             <div class="summary resection"><!-- resume summary -->
@@ -106,7 +105,7 @@
                 </td>
               </tr>
               <tr>
-                <td class="skillname">Java/Spring</td>
+                <td class="skillname">Java/JSP/Spring</td>
                 <td class="skillvalue">
                   <div class="progress">
                     <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 75%">
@@ -136,7 +135,7 @@
                 </td>
               </tr>
               <tr>
-                <td class="skillname">PHP/MySQL</td>
+                <td class="skillname">MySQL/H2</td>
                 <td class="skillvalue">
                   <div class="progress">
                     <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
@@ -155,18 +154,62 @@
                   </div>
                 </td>
               </tr>
+              <tr>
+                <td class="skillname">C#/.NET</td>
+                <td class="skillvalue">
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                      <span class="sr-only">60% Complete (warning)</span>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td class="skillname">AngularJS</td>
+                <td class="skillvalue">
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                      <span class="sr-only">60% Complete (warning)</span>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td class="skillname">Adobe Photoshop</td>
+                <td class="skillvalue">
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+                      <span class="sr-only">70% Complete (warning)</span>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td class="skillname">Amazon AWS</td>
+                <td class="skillvalue">
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                      <span class="sr-only">60% Complete (warning)</span>
+                    </div>
+                  </div>
+                </td>
+              </tr>
             </table>
           </div><!-- /.resume skills -->
           <div class="education resection"><!-- resume education -->
             <h3>Education</h3>
             <hr class="resumehr">
             <div class="school">
-              <h4>Arizona State University<span class="pull-right">Aug 2013 - May 2015</span></h4>
-              <p><i class="fa fa-graduation-cap" aria-hidden="true"></i>&nbsp;Master of Engineering in Electrical and Computer Engineering, GPA: 3.6/4.0</p>
+              <h4>Arizona State University</h4>
+              <h5><span class="glyphicon glyphicon-time"></span> Aug 2013 - May 2015</h5>
+              <p><i class="fa fa-graduation-cap" aria-hidden="true"></i>&nbsp;Master of Engineering in Electrical and Computer Engineering</p>
+              <p>GPA: 3.6/4.0</p>
             </div>
             <div class="school">
-              <h4>Chongqing University<span class="pull-right">Sep 2009 - June 2013</span></h4>
-              <p><i class="fa fa-graduation-cap" aria-hidden="true"></i>&nbsp;Bachelor of Science in Electrical Engineering and Automation, GPA: 3.8/4.0</p>
+              <h4>Chongqing University</h4>
+              <h5><span class="glyphicon glyphicon-time"></span> Aug 2009 - Jun 2013</h5>
+              <p><i class="fa fa-graduation-cap" aria-hidden="true"></i>&nbsp;Bachelor of Science in Electrical Engineering and Automation</p>
+              <p>GPA: 3.8/4.0</p>
             </div>
           </div><!-- /.resume education -->
           <div class="interests resection"><!-- resume interests -->
@@ -177,46 +220,57 @@
         </div><!-- /.col-lg-5 col-md-5-->
         <div class="col-lg-7 col-md-7">
             <div class="experience resection"><!-- resume experience -->
-              <h3>Experience</h3>
-              <hr class="resumehr">
-              <h4>Ligu E-commerce Co., Ltd.<span class="pull-right">June 2014 – Aug 2014</span></h4>
-              <h4 class="intern">Web developer Intern, Chongqing, China</h4>
-              <p><i class="fa fa-check" aria-hidden="true"></i>&nbsp;Developed dynamic and responsive website that ensured good user experience with senior frontend engineers in a team of 4. Achieved 25% faster task completion than expected</p>
-              <p><i class="fa fa-check" aria-hidden="true"></i>&nbsp;Developed an attractive and intuitive user interface with web designer in a collaborative way</p>
-              <p><i class="fa fa-check" aria-hidden="true"></i>&nbsp;Fixed bugs from existing websites and implemented enhancements that improved web functionality and speed</p>
+               <div class="expe"> 
+                <h3>Experience</h3>
+                <hr class="resumehr">
+                <h4>CG Max Design Corp.</h4>
+                <h5 class="intern">Web Design Intern, telecommute</h5>
+                <h5><span class="glyphicon glyphicon-time"></span> May 2016 – present</h5>
+                <p><i class="fa fa-check" aria-hidden="true"></i>&nbsp;Built and refined responsive website templates using HTML, CSS, JavaScript and jQuery</p>
+                <p><i class="fa fa-check" aria-hidden="true"></i>&nbsp;Tested website for cross-browser compatibility; assisted in graphic design using Adobe Photoshop</p>
+              </div>
+              <div class="expe">
+                <h4>Ligu E-commerce Co., Ltd.</h4>
+                <h5 class="intern">Web developer Intern, Chongqing, China</h5>
+                <h5><span class="glyphicon glyphicon-time"></span> Jun 2014 – Aug 2014</h5>
+                <p><i class="fa fa-check" aria-hidden="true"></i>&nbsp;Developed dynamic and responsive website that ensured good user experience with senior frontend engineers in a team of 4</p>
+                <p><i class="fa fa-check" aria-hidden="true"></i>&nbsp;Fixed bugs from existing websites and implemented enhancements that improved web functionality and speed</p>
+            </div>    
             </div><!-- /.resume experience -->
             <div class="projects resection"><!-- resume projects -->
               <h3>Projects</h3>
               <hr class="resumehr">
               <div class="project">
-                <h4>“Foodtastic” An E-food Store<span class="pull-right">Feb 2016</span></h4>
-                <p><span class="btn-skill">Java</span>&nbsp;<span class="btn-skill">Spring MVC</span>&nbsp;<span class="btn-skill">Bootstrap</span></p>
-                <p><i class="fa fa-check" aria-hidden="true"></i>&nbsp;Led a team of 3 to develop Foodtastic, an online food shopping website with a fully responsive UI</p>
-                <p><i class="fa fa-check" aria-hidden="true"></i>&nbsp;Developed database for storage management and customer information. Integrated Spring framework with Hibernate and JPA to persist model data into H2 database</p>
-                <p><i class="fa fa-check" aria-hidden="true"></i>&nbsp;Implemented members and admin authentication and validation using spring security framework</p>
-                <p><i class="fa fa-check" aria-hidden="true"></i>&nbsp;Integrated functional web flows and view pages with business logic, including registration, login, shopping-cart and checkout, and significantly improved the website to a more sophisticated online system</p>
+                <h4>“Foodtastic” An E-Commerce Website<!-- <span class="pull-right"><span class="glyphicon glyphicon-time"></span> Mar 2016 - Jun 2016</span> --></h4>
+                <h5><span class="glyphicon glyphicon-time"></span> Mar 2016 - Jun 2016</h5>
+                <p><span class="btn-skill">Java</span>&nbsp;<span class="btn-skill">Spring</span>&nbsp;<span class="btn-skill">Bootstrap</span></p>
+                <p><i class="fa fa-check" aria-hidden="true"></i>&nbsp;Developed backend functions including inventory management, customer registration and checkout flow</p>
+                <p><i class="fa fa-check" aria-hidden="true"></i>&nbsp;Implemented a responsive frontend interface using HTML, CSS, Bootstrap and jQuery DataTables</p>
+                <p><i class="fa fa-check" aria-hidden="true"></i>&nbsp;Developed shopping cart controller with AngularJS to integrate CRUD functions and consume other RESTful services</p>
+                <p><i class="fa fa-check" aria-hidden="true"></i>&nbsp;Persisted relational model data into H2 Database using Hibernate ORM and integrated Spring Security for user credentials validation</p>
               </div>
               <div class="project">
-                <h4>Login and Registration System<span class="pull-right">Nov 2015</span></h4>
-                <p><span class="btn-skill">PHP</span>&nbsp;<span class="btn-skill">MySQL</span></p>
-                <p><i class="fa fa-check" aria-hidden="true"></i>&nbsp;Created a login and registration system and implemented a fully functional backend system using PHP</p>
-                <p><i class="fa fa-check" aria-hidden="true"></i>&nbsp;Improved system security by adding password hashing and input verification to prevent SQL injection attacks</p>
-                <p><i class="fa fa-check" aria-hidden="true"></i>&nbsp;Used cookies and sessions to implement a “Remember me” functionality</p>
+                <h4>TwitterMap</h4>
+                <h5><span class="glyphicon glyphicon-time"></span> Dec 2015 - Feb 2016</h5>
+                <p><span class="btn-skill">Java</span>&nbsp;<span class="btn-skill">JSP</span>&nbsp;<span class="btn-skill">AWS</span></p>
+                <p><i class="fa fa-check" aria-hidden="true"></i>&nbsp;Developed the backend consuming Twitter stream and implemented a MySQL database instance with Amazon Relational Database Service</p>
+                <p><i class="fa fa-check" aria-hidden="true"></i>&nbsp;Built the frontend in JSP with Google Maps JavaScript API that enables users to visualize or track recent twitter trend based on geolocation or keyword</p>
+                <p><i class="fa fa-check" aria-hidden="true"></i>&nbsp;Deployed the application in Elastic Beanstalk and utilized Eclipse AWS Toolkit for easier access and administration</p>
               </div>
               <div class="project">
-                <h4>Twitter Map<span class="pull-right">Oct 2015</span></h4>
-                <p><span class="btn-skill">Java</span>&nbsp;<span class="btn-skill">Java Servlet</span>&nbsp;<span class="btn-skill">JSP</span></p>
-                <p><i class="fa fa-check" aria-hidden="true"></i>&nbsp;Analyzed Tweets data and presented the twitter trend on the map with Google API</p>
-                <p><i class="fa fa-check" aria-hidden="true"></i>&nbsp;Utilized Amazon Web Service and Java Servlet to host the server</p>
-                <p><i class="fa fa-check" aria-hidden="true"></i>&nbsp;Built the front end with Java Server Page and JavaScript</p>
+                <h4>Online Bookstore Management System</h4>
+                <h5><span class="glyphicon glyphicon-time"></span> Oct 2015 - Nov 2015</h5>
+                <p><span class="btn-skill">C#</span>&nbsp;<span class="btn-skill">ASP.NET</span></p>
+                <p><i class="fa fa-check" aria-hidden="true"></i>&nbsp;Developed a service-oriented application to simulate the work flow of an online bookstore</p>
+                <p><i class="fa fa-check" aria-hidden="true"></i>&nbsp;Deployed WCF/RESTful services including output caching service, DB data caching service, shopping-cart/catalog-box management service and XML read-write service</p>
+                <p><i class="fa fa-check" aria-hidden="true"></i>&nbsp;Implemented the GUI for the application and designed Image Verifier Service for secure login</p>
               </div>
               <div class="project">
-                <h4>Web application projects<span class="pull-right">Sep 2015</span></h4>
+                <h4>YouTube VideoHunter</h4>
+                <h5><span class="glyphicon glyphicon-time"></span> Aug 2015 - Sep 2015</h5>
                 <p><span class="btn-skill">HTML</span>&nbsp;<span class="btn-skill">CSS</span>&nbsp;<span class="btn-skill">JQuery</span></p>
-                <p><i class="fa fa-check" aria-hidden="true"></i>&nbsp;Created a paint-pad with a palette where users can select existing color options or mix colors, draw and erase</p>
-                <p><i class="fa fa-check" aria-hidden="true"></i>&nbsp;Designed several web games including Snake, Word Guess, Jan-ken, Click-Challenge, etc.</p>
-                <p><i class="fa fa-check" aria-hidden="true"></i>&nbsp;Designed a weather forecast website using World Weather Online API</p>
-                <p><i class="fa fa-check" aria-hidden="true"></i>&nbsp;Built a single page web app with YouTube API, where user can search and play all YouTube videos</p>
+                <p><i class="fa fa-check" aria-hidden="true"></i>&nbsp;Implemented a video search web app with YouTube Data API where user can search video and watch video contents</p>
+                <p><i class="fa fa-check" aria-hidden="true"></i>&nbsp;Developed front end view in HTML, CSS, JavaScript; attached jQuery fancyBox tool for displaying videos</p>
               </div>
               <div>
                 <h4 class="button">
@@ -225,8 +279,12 @@
               </div>
             </div><!-- /.resume projects -->       
         </div><!-- /.col-lg-7 col-md-7 -->
-      </div><!-- /.row -->
+      </div><!-- /.row -->      
     </div><!-- /.container -->
+    <!-- BackToTop -->
+    <div id="backtop">
+      <h1 class="pull-right"><a href="#"><i class="fa fa-angle-double-up" aria-hidden="true"></i></a></h1>
+    </div>
     <div id="viewpdf">
       <p class="center"><a class="btn btn-default-pink" href="http://engineering-asu.confidentialresume.com/LiyuanOliviaWei/" target="_blank">To view resume in PDF&nbsp;<i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a></p>
     </div>
@@ -241,10 +299,10 @@
     ================================================== -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    <script type="text/javascript">
-      $(window).load(function() {
-        $(".loaderContainer").fadeOut(1000);
-      })
-    </script>
+    <!-- <script type="text/javascript"> -->
+      <!-- // $(window).load(function() {
+      //   $(".loaderContainer").fadeOut(1000);
+      // }) -->
+    <!-- </script> -->
   </body>
 </html>
